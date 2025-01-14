@@ -14,7 +14,7 @@ This project (https://roadmap.sh/projects/github-random-repo ) is a web applicat
 
 ## Live Demo
 
-Explore the live project at: [GitHub Random Repo Finder](https://roadmap.sh/projects/github-random-repo)
+Explore the live project at: [GitHub Random Repo Finder](https://github-repofinder2.netlify.app/)
 
 ## Technologies Used
 
