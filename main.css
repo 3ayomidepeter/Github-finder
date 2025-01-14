@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #f0f4f8;
+  color: #2c3e50;
+}
+.box {
+  width: 40px;
+  height: 40px;
+  /* background-color: black; */
+  background-color: #005f73;
+  border-radius: 5px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 50%;
+}
+section {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+h1 {
+  font-size: 2rem;
+}
+input {
+  border-radius: 5px;
+  padding: 10px 15px;
+  width: 100%;
+  font-size: 1.7rem;
+}
+form {
+  width: 50%;
+}
+.repo {
+  display: none;
+  /* background-color: #ffff; */
+  /* color: black; */
+  /* border: 2px solid black; */
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+  width: 50%;
+  margin-top: 20px;
+  background-color: #ffffff; /* White */
+  color: #2c3e50; /* Dark slate blue */
+  border: 2px solid #005f73;
+}
+.btn {
+  background-color: #1abc9c;
+  color: #ffff;
+  width: 50%;
+  padding: 15px 0;
+  border-radius: 15px;
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #005f73;
+}
+.error {
+  color: red;
+}
+.repo-description {
+  font-size: 1.2rem;
+  text-align: left;
+}
+.repo-name {
+  text-align: left;
+}
+a {
+  outline: none;
+  color: black;
+}
+a:hover {
+  /* color: tomato; */
+  color: #00bfa6;
+}
+.repo-details {
+  display: flex;
+  font-size: 1.2rem;
+  justify-content: space-between;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="header">
+          <div class="box"></div>
+
+          <h1>Github Repository Finder</h1>
+        </div>
+        <form action="submit">
+          <input
+            list="browsers"
+            id="select"
+            name="select"
+            placeholder="Select language"
+          />
+
+          <datalist id="browsers">
+            <option value="Javascript"></option>
+            <option value="Python"></option>
+            <option value="Go"></option>
+            <option value="C++"></option>
+            <option value="C#"></option>
+          </datalist>
+        </form>
+        <div class="repo" id="repo-el">
+          <!-- The future of roadmap.sh focuses on enhancing its offerings, making it
+          more comprehensive and adaptable for developers, teams, and learners
+          worldwide. -->
+        </div>
+        <button class="btn" id="btn-el">Get Repository</button>
+      </section>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
